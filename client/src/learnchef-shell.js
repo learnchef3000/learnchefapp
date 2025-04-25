@@ -18,6 +18,10 @@ import './pages/shipping.js';
 import './pages/not-found.js';
 import './pages/error.js';
 
+import './pages/topic-list.js';
+import './pages/topic-detail.js';
+import './pages/test.js';
+
 // Components
 import './components/checkout-form.js';
 import './components/checkout-dialog.js';
