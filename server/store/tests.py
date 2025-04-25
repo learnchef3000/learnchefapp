@@ -38,7 +38,7 @@ def create_product(obj):
     return response
 
 
-class AvocanoUnitTest(TransactionTestCase):
+class LearnChefUnitTest(TransactionTestCase):
     def test_basic_post(self):
         response = create_product(baker.prepare("store.Product"))
 

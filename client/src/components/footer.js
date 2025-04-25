@@ -16,11 +16,10 @@ export class Footer extends LitElement {
     return html`
       <div class="footer">
         <div class="footerWrapper">
-          Made with 💚 from the
-          <a href="https://github.com/GoogleCloudPlatform/avocano/">Pit Crew</a>
+          Made with 💚 <a href="https://github.com/learnchef3000/learnchefapp/">LearnChef3000</a>
         </div>
         <div class="version">
-          Avocano v${VERSION} (purchase mode: ${AVOCANLEARNCHEFASE_MODE})
+          LearnChef3000 v${VERSION} (purchase mode: ${AVOCANLEARNCHEFASE_MODE})
         </div>
       </div>
     `;
