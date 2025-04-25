@@ -1,6 +1,6 @@
-# 🥑 Avocano - a fake dropship sample website
+# 🥑 LearnChef - a fake dropship sample website
 
-Avocano is a sample dropship/fake product website, combining: 
+LearnChef is a sample dropship/fake product website, combining: 
  
  * Firebase Hosting front end, written with [Lit](https://lit.dev/).
  * Cloud Run API backend, written with [Django REST Framework](https://www.django-rest-framework.org/),
@@ -11,9 +11,9 @@ Avocano is a sample dropship/fake product website, combining:
 
 Launch this application using the Cloud Shell:
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fgooglecloudplatform%2Favocano&cloudshell_tutorial=README.walkthrough.md&cloudshell_workspace=.)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fgooglecloudplatform%2Flearnchef&cloudshell_tutorial=README.walkthrough.md&cloudshell_workspace=.)
 
-![Screenshot of the deployed application](avocano-screenshot.png)
+![Screenshot of the deployed application](learnchef-screenshot.png)
 
 ## Use this application
 

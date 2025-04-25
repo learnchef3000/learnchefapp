@@ -22,4 +22,4 @@ In general, there are a number of configurations that can be customized to impro
 
 Read more about cold starts as part of the [General Cloud Run Development tips](https://cloud.google.com/run/docs/tips/general).
 
-See where Avocano was featured in the [Google Cloud Next '23 Developer Keynote](https://youtu.be/268jdNwH6AM?t=1629), and cold starts discussed. 
+See where LearnChef was featured in the [Google Cloud Next '23 Developer Keynote](https://youtu.be/268jdNwH6AM?t=1629), and cold starts discussed. 

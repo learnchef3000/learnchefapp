@@ -16,7 +16,7 @@
   pk: 1
   fields:
     active: true
-    site_name: Avocano
+    site_name: LearnChef
     site_name_color: '#767E46'
     site_name_font: Indie Flower
     color_primary: '#B2B43F'

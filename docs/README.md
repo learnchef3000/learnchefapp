@@ -1,8 +1,8 @@
-# Avocano Documentation
+# LearnChef Documentation
 
 This documentation presumes you've successfully [deployed](../README.md#launch) the sample application. 
 
-## Things to do in Avocano
+## Things to do in LearnChef
 
 Depending on the persona you want to use, there are many things you can now do with this deployment. 
 

@@ -1,4 +1,4 @@
-# Avocano Frontend
+# LearnChef Frontend
 
 This client app uses [Lit](https://lit.dev/) front-end and [open-wc](https://open-wc.org/) for project scaffolding.
 
@@ -47,19 +47,19 @@ Open your browser to `localhost:8081` to explore more.
 
 ### Client variants
 
-The default variant of Avocano is an example implementation of a dynamic webapp that when you 
+The default variant of LearnChef is an example implementation of a dynamic webapp that when you 
 click on Buy, explains that this is not a real product website.
 
-The "Avocart" version of Avocano extends the web app to show implementation of a shopping cart
+The "Avocart" version of LearnChef extends the web app to show implementation of a shopping cart
 and checkout process, key requirements for ecommerce sites.
 
 To display the "Avocart" version of the client:
 
 ```bash
-AVOCANO_PURCHASE_MODE=cart npm run start
+LEARNCHEF_PURCHASE_MODE=cart npm run start
 ```
 
-This will allow you to see the cart feature option of Avocano where you will be able to add 
+This will allow you to see the cart feature option of LearnChef where you will be able to add 
 product items into your "cart" and go through "checkout" process with your items.
 
 
@@ -70,7 +70,7 @@ follow the [`directions`](../docs/admin/testing-changes.md) provided.
 
 ## Deployment
 
-To deploy the default version of Avocano, either run through the root `setup.sh` script or click on the "Open in Cloud Shell" [walkthrough](../README.walkthrough.md) in the root [`README`](../README.md).
+To deploy the default version of LearnChef, either run through the root `setup.sh` script or click on the "Open in Cloud Shell" [walkthrough](../README.walkthrough.md) in the root [`README`](../README.md).
 Completing this process will provide you with a Firebase hosted site link. To explore more, check out the [`admin documentation`](../docs/admin).
 
 This code is deployed directly in Cloud Build steps, as seen in the root [`cloudbuild.yaml`](/cloudbuild.yaml), and [`provisioning/client.cloudbuild.yaml`](/provisioning/client.cloudbuild.yaml).

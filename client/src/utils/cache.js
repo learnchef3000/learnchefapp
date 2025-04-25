@@ -14,7 +14,7 @@
 
 import { openDB } from 'idb';
 
-const dbName = 'avocano-demo';
+const dbName = 'learnchef-demo';
 const storeName = 'avocart';
 const dbPromise = openDB(dbName, 1, {
   upgrade(db) {

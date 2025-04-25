@@ -56,9 +56,9 @@ python3 manage.py create_new_product \
 
 # Last added entry is the active product
 python3 manage.py create_new_product \
-    --name "Sparkly Avocado" \
-    --image "store/fixtures/media/avocado-star.png" \
-    --description "Never before has an avocado been as sparkly. Sure to be a star ingredient in your next salad." \
+    --name "Sparkly LearnChef" \
+    --image "store/fixtures/media/learnchef-star.png" \
+    --description "Never before has an learnchef been as sparkly. Sure to be a star ingredient in your next salad." \
     --price "2.99" \
     --discount "14" \
     --inventory_count 42 \

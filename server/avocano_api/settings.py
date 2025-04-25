@@ -53,7 +53,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    "avocano_api.healthchecks.HealthCheckMiddleware",
+    "learnchef_api.healthchecks.HealthCheckMiddleware",
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.security.SecurityMiddleware",
@@ -65,7 +65,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "avocano_api.urls"
+ROOT_URLCONF = "learnchef_api.urls"
 
 TEMPLATES = [
     {
@@ -134,7 +134,7 @@ else:
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
-WSGI_APPLICATION = "avocano_api.wsgi.application"
+WSGI_APPLICATION = "learnchef_api.wsgi.application"
 
 
 # Database

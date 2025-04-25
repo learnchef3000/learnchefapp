@@ -166,7 +166,7 @@ const styles = css`
     width: 100%;
   }
 
-  img.oopsAvocado {
+  img.oopsLearnChef {
     width: auto;
     height: 200px;
     padding: 10px;

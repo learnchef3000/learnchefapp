@@ -13,4 +13,4 @@ As a infrastructure administrator, I want to:
  * [know about the change to use Artifact Registry.](artifact-registry.md)
 
 
-*Want more options? [Request some new docs!](https://github.com/GoogleCloudPlatform/avocano/issues/new/choose)*
+*Want more options? [Request some new docs!](https://github.com/GoogleCloudPlatform/learnchef/issues/new/choose)*

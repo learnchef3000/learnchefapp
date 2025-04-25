@@ -1,4 +1,4 @@
-# Avocano API Server
+# LearnChef API Server
 
 Powered by Django REST Framework. 
 

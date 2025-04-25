@@ -35,7 +35,7 @@ export class Header extends LitElement {
 
   render() {
     document.title = this.headerTitle;
-    const { AVOCANO_PURCHASE_MODE } = getConfig();
+    const { LEARNCHEF_PURCHASE_MODE } = getConfig();
 
     return html`
       <div class="header">
@@ -45,12 +45,12 @@ export class Header extends LitElement {
             <app-link href="/products">Products</app-link>
             <app-link href="/shipping">Shipping</app-link>
             <app-link href="/contact">Contact</app-link>
-            ${AVOCANO_PURCHASE_MODE === 'cart'
+            ${LEARNCHEF_PURCHASE_MODE === 'cart'
               ? html`<app-link href="/checkout">Checkout</app-link>`
               : ``}
           </div>
           <div class="navigationPanel">
-            ${AVOCANO_PURCHASE_MODE === 'cart'
+            ${LEARNCHEF_PURCHASE_MODE === 'cart'
               ? html`<app-link href="/checkout">
                   <div class="shoppingCart">
                     <img

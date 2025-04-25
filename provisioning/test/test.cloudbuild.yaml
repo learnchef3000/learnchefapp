@@ -21,7 +21,7 @@ steps:
   - id: "test"
     name: python:3.12-bullseye
     env:
-      - AVOCANO_PURCHASE_MODE=$_PURCHASE_MODE
+      - LEARNCHEF_PURCHASE_MODE=$_PURCHASE_MODE
     dir: provisioning
     script: |
         #!/bin/bash

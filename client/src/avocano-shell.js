@@ -46,7 +46,7 @@ import '@material/mwc-select';
 import '@material/mwc-list';
 import '@material/mwc-dialog';
 
-export class AvocanoShell extends router(LitElement) {
+export class LearnChefShell extends router(LitElement) {
   static get properties() {
     return {
       route: { type: String },
@@ -138,7 +138,7 @@ export class AvocanoShell extends router(LitElement) {
 
   render() {
     const { config, loading, apiError } = this.state;
-    const { AVOCANO_PURCHASE_MODE } = getConfig();
+    const { LEARNCHEF_PURCHASE_MODE } = getConfig();
 
     if (apiError) {
       return html`<app-error .apiError=${apiError}></app-error>`;
@@ -169,7 +169,7 @@ export class AvocanoShell extends router(LitElement) {
             <div class="route" route="contact">
               <app-contact></app-contact>
             </div>
-            ${AVOCANO_PURCHASE_MODE === 'cart'
+            ${LEARNCHEF_PURCHASE_MODE === 'cart'
               ? html`<div class="route" route="checkout">
                   <app-checkout
                     .cart=${this.state.cart}
@@ -185,4 +185,4 @@ export class AvocanoShell extends router(LitElement) {
   }
 }
 
-customElements.define('avocano-shell', AvocanoShell);
+customElements.define('learnchef-shell', LearnChefShell);

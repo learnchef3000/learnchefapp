@@ -23,7 +23,7 @@ from playwright.sync_api import Page, expect
 
 httpclient = httpx.Client(timeout=15, follow_redirects=True)
 
-purchase_mode = os.environ.get("AVOCANO_PURCHASE_MODE", "")
+purchase_mode = os.environ.get("LEARNCHEF_PURCHASE_MODE", "")
 
 
 def test_client_response(firebase_url):
@@ -36,10 +36,10 @@ def test_client_response(firebase_url):
 def test_client_content(firebase_url, page: Page):
     page.goto(firebase_url, wait_until="networkidle")
 
-    expect(page).to_have_title(re.compile("Avocano"))
+    expect(page).to_have_title(re.compile("LearnChef"))
 
     page_elements = [
-        "Sparkly Avocado",
+        "Sparkly LearnChef",
         "Products",
         "Shipping",
         "Contact",
@@ -52,7 +52,7 @@ def test_client_content(firebase_url, page: Page):
 def test_client_interaction(firebase_url, page: Page):
     page.goto(firebase_url, wait_until="networkidle")
 
-    expect(page).to_have_title(re.compile("Avocano"))
+    expect(page).to_have_title(re.compile("LearnChef"))
 
     def get_inventory():
         inventory = page.locator(".inventory").inner_text()
@@ -88,7 +88,7 @@ def test_client_interaction(firebase_url, page: Page):
 def test_cart_interaction(firebase_url, page: Page):
     page.goto(firebase_url, wait_until="networkidle")
 
-    expect(page).to_have_title(re.compile("Avocano"))
+    expect(page).to_have_title(re.compile("LearnChef"))
 
     def get_inventory():
         inventory = page.locator(".inventory").inner_text()
@@ -101,7 +101,7 @@ def test_cart_interaction(firebase_url, page: Page):
 
     original_inventory = get_inventory()
 
-    expect(page).to_have_title(re.compile("Avocano"))
+    expect(page).to_have_title(re.compile("LearnChef"))
     page.get_by_role("link", name="Add to Cart").click()
 
     expect(page.locator(".dialogWrapper")).to_have_text(re.compile("Wonderful news!"))

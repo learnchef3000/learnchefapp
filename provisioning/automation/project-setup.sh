@@ -38,7 +38,7 @@ else
 fi
 
 if [[ -z $CI_PROJECT ]]; then
-    CI_PROJECT_PREFIX=avocano-test
+    CI_PROJECT_PREFIX=learnchef-test
     RANDOM_IDENTIFIER=$((RANDOM % 999999))
     CI_PROJECT=$(printf "%s-%06d" $CI_PROJECT_PREFIX $RANDOM_IDENTIFIER)-${TEST_TYPE:=manual}
 fi

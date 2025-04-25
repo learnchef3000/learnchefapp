@@ -30,7 +30,7 @@ describe('Contact', () => {
     );
     expect(contactElement).to.exist;
     expect(contactElement.textContent).to.equal(
-      '\n          This website was deployed from sample code in the\n          GoogleCloudPlatform/avocano\n          repo on GitHub.\n        ',
+      '\n          This website was deployed from sample code in the\n          GoogleCloudPlatform/learnchef\n          repo on GitHub.\n        ',
     );
   });
 });

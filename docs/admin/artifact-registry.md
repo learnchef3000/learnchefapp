@@ -3,7 +3,7 @@
 With the [deprecation of Container Registry](https://cloud.google.com/artifact-registry/docs/transition/transition-from-gcr), 
 this demo now uses [Artifact Registry](https://cloud.google.com/artifact-registry/docs/repositories/create-repos). 
 
-This change was completed in [PR #378](https://github.com/GoogleCloudPlatform/avocano/pull/378), requiring the following changes: 
+This change was completed in [PR #378](https://github.com/GoogleCloudPlatform/learnchef/pull/378), requiring the following changes: 
 
  * On initial setup, enable the Artifact Registry API, and creating a Docker repository in Artifact Registry.
     * Container Registry is already provisioned by default in projects, so this extra step is required. 

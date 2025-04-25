@@ -18,7 +18,7 @@ steps:
   - id: client-deploy
     name: us-docker.pkg.dev/$PROJECT_ID/containers/firebase
     env:
-      - AVOCANO_PURCHASE_MODE=$_PURCHASE_MODE
+      - LEARNCHEF_PURCHASE_MODE=$_PURCHASE_MODE
     dir: client
     entrypoint: "/bin/bash"
     args: 

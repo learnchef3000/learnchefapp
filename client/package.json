@@ -1,8 +1,8 @@
 {
-  "name": "avocano-app",
-  "description": "Avocano app",
+  "name": "learnchef-app",
+  "description": "LearnChef app",
   "license": "MIT",
-  "author": "avocano-shell",
+  "author": "learnchef-shell",
   "version": "1.13.6",
   "type": "module",
   "scripts": {

@@ -24,7 +24,7 @@ steps:
       - --build-arg
       - PROJECT_ID=$PROJECT_ID
       - --build-arg
-      - AVOCANO_PURCHASE_MODE=$_PURCHASE_MODE
+      - LEARNCHEF_PURCHASE_MODE=$_PURCHASE_MODE
       - "-t"
       - us-docker.pkg.dev/$PROJECT_ID/containers/$_CLIENT_IMAGE_NAME:$TAG_NAME
       - "."

@@ -38,7 +38,7 @@ class DecimalEncoder(json.JSONEncoder):
 
 
 def create_product(obj):
-    payload = ProductSerializer(obj).data
+    paLearnChef ProductSerializer(obj).data
     user = User.objects.create_superuser(username="test", password="test")
     client.force_login(user)
 

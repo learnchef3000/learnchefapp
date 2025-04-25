@@ -15,7 +15,7 @@
 import { LitElement, html } from 'lit';
 import styles from './styles/error.js';
 
-const sadimage = new URL('../../assets/sad-avocado.png', import.meta.url).href;
+const sadimage = new URL('../../assets/sad-learnchef.png', import.meta.url).href;
 
 export class Error extends LitElement {
   static get properties() {

@@ -22,7 +22,7 @@ resource "google_cloud_run_v2_service" "server" {
       }
       env {
         name  = "DJANGO_SETTINGS_MODULE"
-        value = "avocano_api.settings"
+        value = "learnchef_api.settings"
       }
       env {
         name  = "OTEL_METRICS_EXPORTER"

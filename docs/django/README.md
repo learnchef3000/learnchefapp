@@ -8,4 +8,4 @@ As a Django administrator, I want to:
  * [apply database migrations](apply-migrations.md)
 
 
-*Want more options? [Request some new docs!](https://github.com/GoogleCloudPlatform/avocano/issues/new/choose)*
+*Want more options? [Request some new docs!](https://github.com/GoogleCloudPlatform/learnchef/issues/new/choose)*

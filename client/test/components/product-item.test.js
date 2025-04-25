@@ -30,7 +30,7 @@ describe('ProductItem', () => {
 
   it('renders default buy related features correctly', async () => {
     // Set flag to "buynow" to show single purchase features
-    configStub.callsFake(() => ({ AVOCANO_PURCHASE_MODE: 'buynow' }));
+    configStub.callsFake(() => ({ LEARNCHEF_PURCHASE_MODE: 'buynow' }));
 
     const element = await fixture(
       html`<app-product-item
@@ -78,7 +78,7 @@ describe('ProductItem', () => {
 
   it('renders cart-related features correctly', async () => {
     // Set flag to "cart" to display cart related features of app
-    configStub.callsFake(() => ({ AVOCANO_PURCHASE_MODE: 'cart' }));
+    configStub.callsFake(() => ({ LEARNCHEF_PURCHASE_MODE: 'cart' }));
 
     const element = await fixture(
       html`<app-product-item

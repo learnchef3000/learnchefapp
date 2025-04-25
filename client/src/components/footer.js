@@ -23,7 +23,7 @@ export class Footer extends LitElement {
   }
 
   render() {
-    const { VERSION, AVOCANO_PURCHASE_MODE } = getConfig();
+    const { VERSION, LEARNCHEF_PURCHASE_MODE } = getConfig();
 
     return html`
       <div class="footer">
@@ -32,7 +32,7 @@ export class Footer extends LitElement {
           <a href="https://github.com/GoogleCloudPlatform/avocano/">Pit Crew</a>
         </div>
         <div class="version">
-          Avocano v${VERSION} (purchase mode: ${AVOCANO_PURCHASE_MODE})
+          Avocano v${VERSION} (purchase mode: ${AVOCANLEARNCHEFASE_MODE})
         </div>
       </div>
     `;

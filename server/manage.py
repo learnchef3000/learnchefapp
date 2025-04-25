@@ -23,7 +23,7 @@ from opentelemetry.instrumentation.django import DjangoInstrumentor
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "avocano_api.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "learnchef_api.settings")
 
     DjangoInstrumentor().instrument()
 

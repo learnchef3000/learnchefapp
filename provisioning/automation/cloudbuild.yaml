@@ -76,7 +76,7 @@ substitutions:
   _KEEP_PROJECT: "false"
   _REGION: us-central1
   _SA_NAME: ci-serviceaccount
-  _CI_PROJECT: "avocano-ephemeral-${BUILD_ID:0:8}"
+  _CI_PROJECT: "learnchef-ephemeral-${BUILD_ID:0:8}"
   _CLOUDBUILD_CONFIG: provisioning/automation/deploy.cloudbuild.yaml
   _BILLING_ACCOUNT_ID: ""
 

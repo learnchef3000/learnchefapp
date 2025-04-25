@@ -19,7 +19,7 @@ import cache from '../utils/cache.js';
 import config from '../utils/config.js';
 
 const noimage = new URL('../../assets/noimage.png', import.meta.url).href;
-const oopsAvocado = new URL('../../assets/oops-avocado.png', import.meta.url)
+const oopsLearnChef = new URL('../../assets/oops-learnchef.png', import.meta.url)
   .href;
 
 export class ProductItem extends LitElement {
@@ -151,7 +151,7 @@ export class ProductItem extends LitElement {
   }
 
   render() {
-    const { AVOCANO_PURCHASE_MODE } = config.getConfig();
+    const { LEARNCHEF_PURCHASE_MODE } = config.getConfig();
     const {
       count,
       testimonials,
@@ -196,7 +196,7 @@ export class ProductItem extends LitElement {
               ${count > 0 ? `Only ${count} left!` : `Sold Out!`}
             </div>
             ${count > 0
-              ? AVOCANO_PURCHASE_MODE === 'cart'
+              ? LEARNCHEF_PURCHASE_MODE === 'cart'
                 ? html`<a
                     href="#"
                     class="cartButton"
@@ -271,7 +271,7 @@ export class ProductItem extends LitElement {
           ? html`
               <mwc-dialog open>
                 <div class="dialogWrapper">
-                  <img class="oopsAvocado" src=${oopsAvocado} />
+                  <img class="oopsLearnChef" src=${oopsLearnChef} />
                   <div>
                     <h2>Oops!</h2>
                     <div>Sorry! This is not a real product.</div>

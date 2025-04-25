@@ -19,12 +19,12 @@
 ARG PROJECT_ID=YOURPROJECTID
 FROM us-docker.pkg.dev/$PROJECT_ID/containers/firebase
 
-# Override with "--build-arg AVOCANO_PURCHASE_MODE=cart"
-ARG AVOCANO_PURCHASE_MODE=""
+# Override with "--build-arg LEARNCHEF_PURCHASE_MODE=cart"
+ARG LEARNCHEF_PURCHASE_MODE=""
 
-LABEL org.opencontainers.artifact.title="Avocano Client Deployer" \
+LABEL org.opencontainers.artifact.title="LearnChef Client Deployer" \
       org.opencontainers.artifact.description="Deploy pre-built frontend to Firebase Hosting" \
-      dev.avocano.purchase_mode="${AVOCANO_PURCHASE_MODE}"
+      dev.learnchef.purchase_mode="${LEARNCHEF_PURCHASE_MODE}"
 
 COPY package*.json ./
 RUN npm i
